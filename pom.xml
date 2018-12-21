@@ -13,7 +13,7 @@
     <packaging>jar</packaging>
 
     <groupId>groupId</groupId>
-    <artifactId>spring-cloud-erueka</artifactId>
+    <artifactId>spring-cloud-eureka-server</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <dependencies>
@@ -53,6 +53,7 @@
     </dependencyManagement>
 
     <build>
+        <finalName>spring-cloud-eureka-server</finalName>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
